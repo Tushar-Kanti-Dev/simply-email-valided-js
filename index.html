@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valided Email</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        
+        .field {
+            text-align: center;
+        }
+        
+        input {
+            width: 30%;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        
+        button {
+            font-size: 1em;
+            background-color: rgb(246, 179, 134);
+            padding: 10px 1.5em;
+            border-radius: 10px;
+        }
+        
+        #valid {
+            color: green;
+            display: none;
+        }
+        
+        #invalid {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Email Field</h1>
+    </header>
+    <main>
+        <div class="field">
+            <input id="input-field" type="email" name="" placeholder="Enter email">
+            <br>
+            <button id="submit-button">Submit</button>
+            <h3 id="valid">Valid Email</h3>
+            <h3 id="invalid">Invalid your Email</h3>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
